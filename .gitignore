@@ -30,3 +30,5 @@ download.bin
 dist/
 build/
 *.egg
+*.torrent
+

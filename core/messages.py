@@ -11,6 +11,9 @@ REQUEST = 6
 PIECE = 7
 CANCEL = 8
 
+# Extension (BEP 10)
+EXTENDED = 20
+
 
 def build_message(msg_id=None, payload=b""):
     if msg_id is None:
